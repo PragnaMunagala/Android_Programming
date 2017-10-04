@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HealthMonitor</string>
+    <string name="patient_name">Patient Name</string>
+    <string name="patient_id">Patient ID</string>
+    <string name="patient_age">Age</string>
+    <string name="ID">Patient ID</string>
+    <string name="Name">Patient Name</string>
+    <string name="Age">Age</string>
+    <string name="Sex">Sex</string>
+</resources>
