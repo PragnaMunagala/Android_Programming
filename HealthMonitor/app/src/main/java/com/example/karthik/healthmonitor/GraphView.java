@@ -22,8 +22,9 @@ public class GraphView extends View {
 	private String[] verlabels;
 	private String title;
 	private boolean type;
+	private String color;
 
-	public GraphView(Context context, float[] values, String title, String[] horlabels, String[] verlabels, boolean type) {
+	public GraphView(Context context, float[] values, String title, String[] horlabels, String[] verlabels, boolean type, String color) {
 		super(context);
 		if (values == null)
 			values = new float[0];
@@ -42,6 +43,7 @@ public class GraphView extends View {
 		else
 			this.verlabels = verlabels;
 		this.type = type;
+		this.color = color;
 		paint = new Paint();
 	}
 
@@ -112,7 +114,7 @@ public class GraphView extends View {
 					float rat = val / diff;
 					float h = graphheight * rat;
 					if (i > 0)
-						paint.setColor(Color.parseColor("#90EE90"));
+						paint.setColor(Color.parseColor(this.color));
 						paint.setStrokeWidth(6.0f);
 
 						canvas.drawLine(((i - 1) * colwidth) + (horstart + 1) + halfcol, (border - lasth) + graphheight, (i * colwidth) + (horstart + 1) + halfcol, (border - h) + graphheight, paint);

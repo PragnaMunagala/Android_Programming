@@ -71,7 +71,10 @@
                 android:inputType="textPersonName" />
             <RadioGroup
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:id="@+id/gender"
+                android:checkedButton="@+id/radioButton2"
+                >
                 <RadioButton
                     android:id="@+id/radioButton2"
                     android:layout_width="wrap_content"
@@ -87,31 +90,46 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_gravity="center">
+            android:orientation="horizontal">
             <Button
                 android:id="@+id/button"
-                android:layout_width="72dp"
+                android:layout_width="40dp"
                 android:layout_height="35dp"
                 android:text="Run"
-                android:layout_marginRight="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
                 android:background="@android:color/holo_green_light"/>
             <Button
                 android:id="@+id/button4"
-                android:layout_width="72dp"
+                android:layout_width="40dp"
                 android:layout_height="35dp"
+                android:layout_marginRight="5dp"
                 android:text="STOP"
                 android:background="@android:color/holo_red_light"/>
+            <Button
+                android:text="Upload database"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:id="@+id/upload"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/holo_green_light"
+                android:onClick="uploadDatabase"/>
+            <Button
+                android:text="Download database"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/holo_green_light"
+                android:id="@+id/download"
+                android:onClick="downloadDatabase"/>
         </LinearLayout>
-        <LinearLayout
-            class="com.example.karthik.healthmonitor.GraphView"
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:id="@+id/graph"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="20dp"/>
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
     </LinearLayout>
 </FrameLayout>
 
