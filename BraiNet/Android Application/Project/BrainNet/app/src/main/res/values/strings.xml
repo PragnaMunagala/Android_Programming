@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BrainNet</string>
+    <string name="title_activity_user_results">UserResultsActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="user">user</string>
+    <string name="fogTime">fogTime</string>
+    <string name="battery">battery</string>
+</resources>

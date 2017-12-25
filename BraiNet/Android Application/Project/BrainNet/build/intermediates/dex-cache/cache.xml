@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Karthik\Desktop\Fall 17\MC\Project\BrainNet\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e8f33d32056a4f503e97c410b2b88217bd61454">
+        <dex dex="C:\Users\Karthik\Desktop\Fall 17\MC\Project\BrainNet\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_dafa59373a2233d858cfe4ec256aeec6f5b92321\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Karthik\.android\build-cache\e7cc82219526717df2caa3dd5b5b6719803671ef\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\Karthik\Desktop\Fall 17\MC\Project\BrainNet\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ffcb5303fc54eb974dd1aeedaac455dfa26f2a12\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Karthik\.android\build-cache\4bbc60939eefe1f4620980aea38598a6c2c86285\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\Karthik\Desktop\Fall 17\MC\Project\BrainNet\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e5e46e87c329796da4a29ea50470acfbbd5858e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Karthik\.android\build-cache\8ede55bbdb973b100544c3bbaff307e915016c97\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Users\Karthik\Desktop\Fall 17\MC\Project\BrainNet\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_98022904babfbcec25d775df49beb7ffb725fcf9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Karthik\Desktop\Fall 17\MC\Project\BrainNet\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Karthik\Desktop\Fall 17\MC\Project\BrainNet\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7bbc3a85ed07ccf4fdd0aff663e71c986f8808f3\classes.dex" />
+    </item>
+
+</items>

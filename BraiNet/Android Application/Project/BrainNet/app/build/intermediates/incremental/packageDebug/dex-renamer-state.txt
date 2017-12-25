@@ -1,0 +1,7 @@
+#Thu Nov 30 20:02:51 MST 2017
+base.0=C\:\\Users\\Karthik\\Desktop\\Fall 17\\MC\\Project\\BrainNet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7bbc3a85ed07ccf4fdd0aff663e71c986f8808f3
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Karthik\\Desktop\\Fall 17\\MC\\Project\\BrainNet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_dafa59373a2233d858cfe4ec256aeec6f5b92321\\classes.dex
+base.1=C\:\\Users\\Karthik\\Desktop\\Fall 17\\MC\\Project\\BrainNet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_dafa59373a2233d858cfe4ec256aeec6f5b92321
+file.0=C\:\\Users\\Karthik\\Desktop\\Fall 17\\MC\\Project\\BrainNet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7bbc3a85ed07ccf4fdd0aff663e71c986f8808f3\\classes.dex
